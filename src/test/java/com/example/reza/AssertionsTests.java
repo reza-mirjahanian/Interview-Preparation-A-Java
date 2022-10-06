@@ -1,6 +1,4 @@
 package com.example.reza;
-import static java.time.Duration.ofMillis;
-import static java.time.Duration.ofMinutes;
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
@@ -9,10 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertTimeout;
 import static org.junit.jupiter.api.Assertions.assertTimeoutPreemptively;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import java.util.concurrent.CountDownLatch;
-
-import org.example.Calculator;
-import org.junit.jupiter.api.Test;
+import org.example.L2;
 
 
 //Preemptive Timeouts with assertTimeoutPreemptively()
@@ -24,7 +19,7 @@ import org.junit.jupiter.api.Test;
 
 //third-party assertion libraries such as AssertJ, Hamcrest, Truth,
 public class AssertionsTests {
-    private final Calculator calculator = new Calculator();
+    private final L2 calculator = new L2();
 
 
 
