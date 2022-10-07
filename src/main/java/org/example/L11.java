@@ -2,15 +2,7 @@ package org.example;
 
 
 public class L11 {
-    /*
-     * Given two sorted arrays nums1 and nums2 of size m and n respectively, return
-     * the median of the two sorted arrays.
 
-     * The overall run time complexity should be O(log (m+n)). nums1.length == m ;
-     * nums2.length == n 0 <= m <= 1000 ; 0 <= n <= 1000 1 <= m + n <= 2000
-     * #CAREFULLY! -10e6 <= nums1[i], nums2[i] <= 10e6
-     *
-     */
 
     public int maxArea(int[] height) {
 //        int maxArea = 0;
