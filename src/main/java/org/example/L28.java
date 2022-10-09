@@ -1,8 +1,7 @@
 package org.example;
 
-import java.util.ArrayList;
-import java.util.List;
-
-class L0 {
-
+class L28 {
+    public int strStr(String haystack, String needle) {
+        return haystack.indexOf(needle);
+    }
 }
